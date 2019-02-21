@@ -1,0 +1,21 @@
+:root {
+  font-size: 18px;
+  --detail-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-size-normal: 1rem;
+  --font-size-medium: 1.25rem;
+  --font-size-large: 1.75rem;
+  --font-size-small: 0.6rem;
+  --font-line-normal: 1.15;
+  --font-line-medium: calc(var(--font-line-normal) * 1.25);
+  --font-line-large: calc(var(--font-line-normal) * 1.75);
+  --font-line-small: calc(var(--font-line-normal) * 0.6);
+  --font-weight-normal: 300;
+  --font-weight-medium: 500;
+  --font-weight-heavy: 700;
+
+  --color-fg-primary: 223, 43.3%, 86.9%;
+  --color-bg-primary: 68, 36, 72;
+  --color-bg-secondary: 35, 35, 0;
+
+  --wrapper-padding: 0 var(--font-size-normal);
+}

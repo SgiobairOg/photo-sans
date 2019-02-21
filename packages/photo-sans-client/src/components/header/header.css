@@ -1,0 +1,20 @@
+@import "./../../assets/variables.css";
+
+.header {
+  margin: 0;
+  padding: var(--wrapper-padding);
+  display: grid;
+  grid-column: 1 / span 9;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.header__title {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-heavy);
+  line-height: var(--font-line-large);
+  color: hsla(var(--color-fg-primary), 0.1);
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}

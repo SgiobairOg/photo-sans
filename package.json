@@ -1,0 +1,26 @@
+{
+  "name": "photo-sans",
+  "version": "1.0.0",
+  "description": "App, database, and Api for Photographer Sans",
+  "main": "index.js",
+  "scripts": {
+    "test": "lerna run test --stream"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgiobairog/photo-sans.git"
+  },
+  "keywords": [
+    "graphql",
+    "node"
+  ],
+  "author": "Jason Wilson <jason@wilsons.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgiobairog/photo-sans/issues"
+  },
+  "homepage": "https://github.com/sgiobairog/photo-sans#readme",
+  "devDependencies": {
+    "lerna": "^3.10.6"
+  }
+}

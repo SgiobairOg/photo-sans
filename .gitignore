@@ -1,11 +1,11 @@
-node_modules/
+/node_modules
 
-.DS_store/
+.DS_store
 
-build/
+/build
 
-coverage/
+/coverage
 
 .env
 
-packages/database/data/
+/packages/database/data

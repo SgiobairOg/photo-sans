@@ -3,7 +3,6 @@
 .footer {
   margin: 0;
   padding: var(--font-size-normal);
-  grid-column: 1 / span 9;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;

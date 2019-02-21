@@ -1,9 +1,9 @@
 .App {
-  text-align: center;
+  text-align: left;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: 1fr;
   grid-template-rows: 180px min-content auto min-content;
 
   max-width: 100%;

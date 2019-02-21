@@ -6,7 +6,11 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <aside className="footer__tagline">
-          Made in 🇨🇭 by{" "}
+          Made in{" "}
+          <span role="img" aria-label="Switzerland">
+            🇨🇭
+          </span>{" "}
+          by{" "}
           <a
             className="footer__link"
             href="https://www.wilsons.io"

@@ -1,0 +1,24 @@
+@import "./../../assets/variables.css";
+
+.footer {
+  margin: 0;
+  padding: var(--font-size-normal);
+  grid-column: 1 / span 9;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  color: hsla(var(--color-fg-primary), 1);
+  background-color: rgb(var(--color-bg-secondary));
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--font-line-medium);
+}
+
+.footer__link,
+.footer__link:link {
+  color: inherit;
+}
+
+.footer_link:visited {
+  color: hsla(var(--color-fg-primary), 0.5);
+}

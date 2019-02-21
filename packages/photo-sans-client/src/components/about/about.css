@@ -1,3 +1,5 @@
 .about {
   padding: var(--wrapper-padding);
+  line-height: var(--font-line-medium);
+  color: hsla(var(--color-fg-primary), 0.8);
 }

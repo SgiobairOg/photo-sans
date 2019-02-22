@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Query } from "react-apollo";
 import gql from "graphql-tag";
 import * as merge from "deepmerge";
-import InfiniteScroll from "react-infinite-scroller";
 import Photo from "./../photo/photo";
 import "./gallery.css";
 

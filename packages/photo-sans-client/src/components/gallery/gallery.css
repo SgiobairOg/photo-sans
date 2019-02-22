@@ -2,3 +2,37 @@
   margin: 0;
   padding: var(--wrapper-padding);
 }
+
+.gallery__the-end {
+  color: hsla(var(--color-fg-primary), 0.8);
+  font-weight: var(--font-weight-medium);
+  text-align: center;
+}
+
+.gallery__load-more,
+.gallery__load-more:link {
+  color: hsla(var(--color-fg-primary), 1);
+  background: transparent;
+  font-weight: var(--font-weight-medium);
+  border: 2px solid hsla(var(--color-fg-primary), 0.8);
+  padding: var(--font-size-small);
+  text-transform: capitalize;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: var(--font-size-large);
+  justify-self: center;
+}
+
+.gallery__load-more:visited {
+  color: hsla(var(--color-fg-primary), 0.5);
+}
+
+.gallery__load-more:hover,
+.gallery__load-more:active,
+.gallery__load-more:focus {
+  color: rgba(var(--color-bg-primary), 1);
+  font-weight: var(--font-weight-heavy);
+  background-color: hsla(var(--color-fg-primary), 1);
+  transition: all ease-in 100ms;
+}

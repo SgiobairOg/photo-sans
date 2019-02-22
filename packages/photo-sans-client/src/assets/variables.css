@@ -17,5 +17,5 @@
   --color-bg-primary: 68, 36, 72;
   --color-bg-secondary: 35, 35, 0;
 
-  --wrapper-padding: 0 var(--font-size-normal);
+  --wrapper-padding: 0 var(--font-size-medium);
 }

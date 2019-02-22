@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+
+.photo {
+  color: hsla(var(--color-bg-primary), 1);
+  background-color: hsla(var(--color-fg-primary), 0.8);
+  margin: var(--font-size-large) 0;
+  padding: var(--font-size-small);
+  display: grid;
+  grid-template-rows: max-content max-content;
+  height: max-content;
+}
+
+.photo__body {
+  padding: var(--font-size-small);
+  margin: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo__body:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.photo__body-content {
+  line-height: var(--font-line-medium);
+  top: 0;
+  font-size: 3.2vw;
+  color: rgb(var(--color-bg-primary));
+  box-sizing: border-box;
+  left: 0px;
+  padding: var(--font-size-small);
+  text-align: center;
+}
+
+.photo__title {
+  margin-bottom: 0;
+  font-size: var(--font-size-medium);
+  line-height: var(--font-line-medium);
+  color: rgb(var(--color-bg-primary));
+  font-family: "Caveat", cursive;
+}
+
+.photo__released {
+  margin-top: 0;
+  padding: 0;
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--font-line-small);
+  color: rgb(var(--color-bg-primary));
+  font-family: "Caveat", cursive;
+}
